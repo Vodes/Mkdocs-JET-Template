@@ -43,3 +43,11 @@ src: vs.VideoNode = HMAX.init().std.AssumeFPS(fpsnum=24000, fpsden=1001)[98:]
 
     - list item a
     - list item b
+
+## File embed sample
+
+Also see [this documentation](https://facelessuser.github.io/pymdown-extensions/extensions/snippets/) on more features related to this.
+
+```py title="test.py"
+--8<-- "./docs/code/test.py"
+```

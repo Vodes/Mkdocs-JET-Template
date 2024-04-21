@@ -15,6 +15,9 @@ theme:
     - content.code.copy
     - content.code.select
 
+nav:
+  - Home: index.md
+
 plugins:
 - search
 - mkdocstrings:
