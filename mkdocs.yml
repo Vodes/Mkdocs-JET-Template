@@ -1,0 +1,41 @@
+site_name: VS Mkdocs Template
+site_description: wowie
+site_author: wowie
+site_url: https://example.com
+repo_url: https://github.com/Vodes/Mkdocs-VS-Template
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: purple
+    accent: indigo
+    scheme: slate
+  features:
+    - content.code.copy
+    - content.code.select
+
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        import:
+          - https://docs.python.org/3/objects.inv
+        options:
+          docstring_style: "sphinx"
+          show_symbol_type_heading: true
+          show_symbol_type_toc: true
+
+markdown_extensions:
+  - footnotes
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
