@@ -1,7 +1,7 @@
 site_name: VS Mkdocs Template
 site_description: wowie
 site_author: wowie
-site_url: https://example.com
+site_url: https://vodes.github.io/Mkdocs-JET-Template/
 repo_url: https://github.com/Vodes/Mkdocs-VS-Template
 
 theme:
@@ -14,6 +14,11 @@ theme:
   features:
     - content.code.copy
     - content.code.select
+
+extra:
+  version:
+    provider: mike
+    alias: true
 
 nav:
   - Home: index.md
