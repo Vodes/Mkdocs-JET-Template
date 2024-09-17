@@ -1,5 +1,10 @@
 [
   {
+    "version": "test-branch",
+    "title": "test-branch",
+    "aliases": []
+  },
+  {
     "version": "master",
     "title": "master",
     "aliases": []
