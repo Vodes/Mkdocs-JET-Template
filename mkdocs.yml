@@ -18,7 +18,6 @@ theme:
 extra:
   version:
     provider: mike
-    alias: true
 
 nav:
   - Home: index.md
